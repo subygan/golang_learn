@@ -88,7 +88,6 @@ func main() {
             fmt.Println("weekday")
     }
 
-
     switch
 
 }
