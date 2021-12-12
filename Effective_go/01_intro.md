@@ -1,3 +1,9 @@
+---
+title: Effective go practice
+emoji: 🐭
+layout: base
+---
+
 ## Formatting
 
 There is no need to align content or comment `go fmt` does that for you.
