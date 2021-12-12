@@ -1,3 +1,9 @@
+---
+title: Learning golang 04 - Goroutine
+emoji: 🐭
+layout: base
+---
+
 ## Goroutines
 
 Goroutine is a lightweight thread managed by the Go runtime. 

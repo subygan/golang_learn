@@ -1,3 +1,9 @@
+---
+title: Learning golang 02 - DS and algo
+emoji: 🐭
+layout: base
+---
+
 # Arrays
 The type ```[n]T``` creates an array of n values of type T.
 

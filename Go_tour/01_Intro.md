@@ -1,3 +1,8 @@
+---
+title: Learning golang 01 - Basics
+emoji: 🐭
+layout: base
+---
 ## Intro
 - Every go program is made of packages and "main" package is run first.
 

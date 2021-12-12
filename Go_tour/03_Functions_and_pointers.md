@@ -1,3 +1,9 @@
+---
+title: Learning golang 03 - Functions
+emoji: 🐭
+layout: base
+---
+
 ### Functions and pointers
 Functions can receive pointers.
 Any change to the pointer would change the value.
