@@ -1,3 +1,10 @@
+---
+title: Learning golang with the official go tour
+emoji: 🐭
+layout: base
+---
+
+
 
 # golang_learn
 Learning Golang
@@ -7,7 +14,6 @@ Learning Golang
 
 ```go
 package main
-
 import (
 	"fmt"
 	"math/rand"

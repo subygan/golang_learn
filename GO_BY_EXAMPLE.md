@@ -1,3 +1,9 @@
+---
+title: Learning golang using Go By Example
+emoji: 🐭
+layout: base
+---
+
 # go by example.
 Following eli bendersky's gobyexample.com tutorial the idea is to capture only things that were not clear in the go tour.
 
