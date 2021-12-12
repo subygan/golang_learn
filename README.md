@@ -1,8 +1,21 @@
+---
+title: Learning golang with the official go tour
+emoji: 🐭
+layout: base
+---
+
 # Learning Golang
+
 
 Resources and stuff captured, while learning golang
 
 
+```go
+package main
+import (
+	"fmt"
+	"math/rand"
+)
 ### Articles
 
 List of articles I found useful.
