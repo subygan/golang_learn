@@ -1,9 +1,3 @@
----
-title: Learning golang with the official go tour
-emoji: 🐭
-layout: base
----
-
 # Learning Golang
 
 
