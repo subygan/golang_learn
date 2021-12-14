@@ -1,7 +1,9 @@
 ---
-title: Learning golang 02 - DS and algo
 emoji: 🐭
+title: Learning golang 02 - DS and algo
+description: Data structures from the go tour
 layout: base
+type: page
 ---
 
 # Arrays

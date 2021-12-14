@@ -1,6 +1,7 @@
 ---
-title: Learning golang 03 - Functions
 emoji: 🐭
+title: Learning golang 03 - Functions
+description: Functions from the go tour
 layout: base
 ---
 
