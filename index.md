@@ -17,14 +17,16 @@ import (
 	"fmt"
 	"math/rand"
 )
+```
+
 ### Articles
 
 List of articles I found useful.
 
 - [https://nathany.com/good/](https://nathany.com/good/)
-- https://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go
-- https://go.dev/blog/error-handling-and-go
-- https://morsmachine.dk/go-scheduler
+- [https://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go](https://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go)
+- [https://go.dev/blog/error-handling-and-go](https://go.dev/blog/error-handling-and-go)
+- [https://morsmachine.dk/go-scheduler](https://morsmachine.dk/go-scheduler)
 
 ### Other resources
 
