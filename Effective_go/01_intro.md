@@ -3,7 +3,6 @@ emoji: 🐭
 title: Effective go practice
 description: Effective go practices that I'm trying ot acquire over time
 layout: base
-type: page
 ---
 
 ## Formatting

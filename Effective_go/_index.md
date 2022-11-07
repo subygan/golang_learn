@@ -1,6 +1,5 @@
 ---
 emoji: 👨🏻‍🔬
-title: Learning golang
-layout: base
-type: page
+title: Effective go
+description: learning using effective go
 ---
