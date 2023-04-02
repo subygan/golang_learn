@@ -14,7 +14,8 @@ Then creating functions with the prefix Benchmark, like so. `func Benchmark<name
 
 a simple function that tests a simple multiplication function would be
 
-{% highlight golang linenos %}
+```go
+
 package go_test
 import (
 "testing"
@@ -23,17 +24,17 @@ import (
 
 func BenchmarkMultiplication(b *testing.B){
 
-b.ResetTimer() // Resets timer so that the values are accurate
+    b.ResetTimer() // Resets timer so that the values are accurate
+    
+    for i := 0; i<b.N; i++ {
+        //  ^^^ Allocated dynamically by thetesting package
+        
+        _ := rand.Int() * rand.Int()
 
-for i := 0; i<b.N; i++ {
-//  ^^^ Allocated dynamically by thetesting package
-
-_ := rand.Int() * rand.Int()
-
+    }
 }
-}
 
-{% endhighlight %}
+```
 
 
 The `b.N` Value is allotted by the testing framework based on the projection of how long the function would run.
@@ -44,9 +45,9 @@ And then averages out the total time taken. every time figuring out the optimal 
 
 This test can be run using
 
-{% highlight golang linenos %}
+```go
 go test -bench=. -benchmem -cpu 1,2,4,8
-{% endhighlight %}
+```
 
 Flags :
 
