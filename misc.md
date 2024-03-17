@@ -12,6 +12,11 @@ date: 2022-09-19
 `go get`, downloads and adds in GOPATH.
 `go install`, add
 
+
+#### Creating mutex
+
+When embedding a mutex in a struct. any functions associated to the mutex should utilize a pointer receiver.
+
 ## Questions:
 
 - What is go11modules env variable?
