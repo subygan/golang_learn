@@ -8,7 +8,7 @@ Resources and stuff captured, while learning golang
 package main
 import (
 	"fmt"
-	"math/rand"
+	"math/rand" 
 )
 ### Articles
 
