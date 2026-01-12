@@ -3,7 +3,7 @@ emoji: 🐭
 title: Learning golang 04 - Goroutine
 description: Learning Go routine from go tour
 layout: base
-type: page
+tags: ["tech", "programming"]
 ---
 
 ## Goroutines

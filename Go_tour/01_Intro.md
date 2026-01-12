@@ -3,7 +3,7 @@ emoji: 🐭
 title: Learning golang 01 - Basics
 Description: Learning go from the go tour
 layout: base
-type: page
+tags: ["tech", "programming"]
 ---
 ## Intro
 - Every go program is made of packages and "main" package is run first.

@@ -2,9 +2,9 @@
 title: Miscelaneous details about golang
 emoji: 🃏
 layout: base
-type: page
 description: Fine details about the language
 date: 2022-09-19
+tags: ["tech", "programming"]
 ---
 
 ### `go get` vs `go install`

@@ -3,7 +3,7 @@ emoji: 🐭
 title: Learning golang using Go By Example
 description: My record of me Trying to follow "Go By example", by eli 
 layout: base
-type: page
+tags: ["tech", "programming"]
 ---
 
 # go by example.

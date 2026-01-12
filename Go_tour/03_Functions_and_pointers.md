@@ -3,6 +3,7 @@ emoji: 🐭
 title: Learning golang 03 - Functions
 description: Functions from the go tour
 layout: base
+tags: ["tech", "programming"]
 ---
 
 ### Functions and pointers

@@ -3,7 +3,7 @@ emoji: 🐭
 title: Learning golang 02 - DS and algo
 description: Data structures from the go tour
 layout: base
-type: page
+tags: ["tech", "programming"]
 ---
 
 # Arrays
