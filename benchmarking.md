@@ -1,7 +1,7 @@
 ---
 layout: base
 emoji: 🚅
-title: Benchmarking
+title: benchmarking
 description: Benchmarking go programs with the testing package
 tags: ["tech", "programming"]
 ---

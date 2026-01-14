@@ -1,4 +1,4 @@
-# Learning Golang
+# learning golang
 
 
 Resources and stuff captured, while learning golang

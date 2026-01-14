@@ -1,6 +1,6 @@
 ---
 emoji: 🐭
-title: Learning golang using Go By Example
+title: learning golang using go by example
 description: My record of me Trying to follow "Go By example", by eli 
 layout: base
 tags: ["tech", "programming"]
@@ -52,7 +52,7 @@ func main(){
 
 There are no ternary if functions in go
 
-## Switch statements
+## switch statements
 
 Switch statements express conditionals across many branches.
 

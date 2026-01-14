@@ -1,12 +1,12 @@
 ---
 emoji: 🐭
-title: Learning golang 03 - Functions
+title: learning golang 03 - functions
 description: Functions from the go tour
 layout: base
 tags: ["tech", "programming"]
 ---
 
-### Functions and pointers
+### functions and pointers
 Functions can receive pointers.
 Any change to the pointer would change the value.
 
@@ -34,7 +34,7 @@ func main() {
 ```
 
 
-### Function closures
+### function closures
 
 A function closure references variable from outside the function. Each closure is left to its own values
 
@@ -64,7 +64,7 @@ func main(){
 }
 ```
 
-## Methods
+## methods
 Go does not have objects but you can write methods on types.
 This is done using a special **__receiver__** argument.
 Receiver comes between the func keyword and the function name
@@ -91,7 +91,7 @@ func main(){
 }
 ```
 
-### Methods are functions
+### methods are functions
 Methods are functions with the receiver argument
 
 Same program as above written as a function
@@ -139,7 +139,7 @@ func main() {
 
 ```
 
-### Pointer Receivers in methods
+### pointer receivers in methods
 
 Receivers can be pointers as well, This helps in mutating the values.
 
@@ -171,7 +171,7 @@ func main(){
 here the method receives a pointer to the instance mutating the instance itself.
 
 
-## Interfaces
+## interfaces
 
 An interface type can hold any value that implements those methods
 
@@ -307,7 +307,7 @@ Hello
 */
 ```
 
-### Interfaces and Nil values
+### interfaces and nil values
 
 When implementing an interface, nil pointer exceptions need to be handled as that could happen
 
@@ -354,7 +354,7 @@ func describe(i I){
 }
 ```
 
-### The empty interface
+### the empty interface
 Empty interfaces are possible in go
 
 ```
@@ -386,7 +386,7 @@ func describe(i interface{}){
 ```
 
 
-### Type assertions
+### type assertions
 
 Type assertion provides access to the interface value's underlying concrete value.
 
@@ -423,7 +423,7 @@ func do(i interface{}) {
 }
 ```
 
-### Stringers
+### stringers
 
 One of the most ubiquitous interfaces is stringer defined by the fmt package
 
@@ -460,7 +460,7 @@ func main(){
 }
 ```
 
-### Errors
+### errors
 
 Similar to Stringer, go programs require error() method to articulate errors
 

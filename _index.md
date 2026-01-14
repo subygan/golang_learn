@@ -1,6 +1,6 @@
 ---
 emoji: 👨🏻‍🔬
-title: Learning golang
+title: learning golang
 description: Notes on learning golang
 ---
 
@@ -13,7 +13,7 @@ variables at first. It quickly becomes obvious. Similarly `go fmt`  tool is used
 Everything is made to just work out of the box. No riff raff. `go mod vendor` and just compiling works flawlessly.
 Looking at python and js. This is plain incredible to work with.
 
-# Learning Golang
+# learning golang
 
 
 Resources and stuff captured, while learning golang
@@ -27,7 +27,7 @@ import (
 )
 ```
 
-### Articles
+### articles
 
 List of articles I found useful.
 
@@ -36,6 +36,6 @@ List of articles I found useful.
 - [https://go.dev/blog/error-handling-and-go](https://go.dev/blog/error-handling-and-go)
 - [https://morsmachine.dk/go-scheduler](https://morsmachine.dk/go-scheduler)
 
-### Other resources
+### other resources
 
 - gobyexample.com

@@ -1,4 +1,4 @@
 ---
 emoji: 👨🏻‍🔬
-title: Go Tour
+title: go tour
 ---

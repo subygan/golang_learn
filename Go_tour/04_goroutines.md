@@ -1,12 +1,12 @@
 ---
 emoji: 🐭
-title: Learning golang 04 - Goroutine
+title: learning golang 04 - goroutine
 description: Learning Go routine from go tour
 layout: base
 tags: ["tech", "programming"]
 ---
 
-## Goroutines
+## goroutines
 
 Goroutine is a lightweight thread managed by the Go runtime. 
 a "thread" does not mean virtual thread or even multiple thread. it is like async await. meaning there is one main thread and multiple seperate "threads" spawned which are technically running in the same thread instead of spawning one for every process. Each of these threads are blocked when a blocking process is run. and repicked when it is done.
@@ -40,7 +40,7 @@ func main(){
 
 ```
 
-### Channels
+### channels
 
 channels are typed conduit through which you can send and receive values with the certain operators.
 
@@ -92,7 +92,7 @@ func main() {
 }
 ```
 
-### Buffered Channels
+### buffered channels
 Channels can be buffered to have a certain amount of value.
 like a numbered of list of elements in the channel
 
@@ -125,7 +125,7 @@ func main(){
 
 ```
 
-## Range and Close
+## range and close
 
 A sender can close a channel to indicate that there are no more variables to be sent.
 Receivers can test whether a channel has been closed by assigning a second parameter to the receive expression. Like how we do for errors in functions
@@ -172,7 +172,7 @@ func main(){
 }
 ```
 
-## Select
+## select
 
 A select is similar to a switch statement. But a select statement works on channels. it uses whatever channel is available now.
 
@@ -217,7 +217,7 @@ func main(){
 }
 ```
 
-## Default Selection
+## default selection
 
 The default case in a select is run if no other case is ready.
 

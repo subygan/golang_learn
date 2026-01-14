@@ -1,12 +1,12 @@
 ---
 emoji: 🐭
-title: Effective go practice
+title: effective go practice
 description: Effective go practices that I'm trying ot acquire over time
 layout: base
 tags: ["tech", "programming"]
 ---
 
-## Formatting
+## formatting
 
 There is no need to align content or comment `go fmt` does that for you.
 

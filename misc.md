@@ -1,5 +1,5 @@
 ---
-title: Miscelaneous details about golang
+title: miscelaneous details about golang
 emoji: 🃏
 layout: base
 description: Fine details about the language
@@ -13,10 +13,10 @@ tags: ["tech", "programming"]
 `go install`, add
 
 
-#### Creating mutex
+#### creating mutex
 
 When embedding a mutex in a struct. any functions associated to the mutex should utilize a pointer receiver.
 
-## Questions:
+## questions:
 
 - What is go11modules env variable?

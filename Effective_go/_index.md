@@ -1,5 +1,5 @@
 ---
 emoji: 👨🏻‍🔬
-title: Effective go
+title: effective go
 description: learning using effective go
 ---

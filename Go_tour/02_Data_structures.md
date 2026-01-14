@@ -1,12 +1,12 @@
 ---
 emoji: 🐭
-title: Learning golang 02 - DS and algo
+title: learning golang 02 - ds and algo
 description: Data structures from the go tour
 layout: base
 tags: ["tech", "programming"]
 ---
 
-# Arrays
+# arrays
 The type ```[n]T``` creates an array of n values of type T.
 
 ```go
@@ -14,7 +14,7 @@ var a [10]int
 //Creates an array 'a' of int type with size 10
 ```
 
-### Slices
+### slices
 
 An array has a fixed size. A slice is dynamically-sized
 The type ```[]T``` is a slice of elements with type T
@@ -32,7 +32,7 @@ func main(){
 }
 ```
 
-### Slices are reference to arrays
+### slices are reference to arrays
 If a value in a slice is changed, the underlying array changes as well
 Other slices that shares those slices will see the changes too
 
@@ -60,18 +60,18 @@ func main(){
 }
 ```
 
-### Slice defaults
+### slice defaults
 When slicing, the higher or lower bounds can be ignored. Similar to python
 ```go
 s := [10]int{1,2,3,4,5,6,7,8,9,0}
 // s[0:10] = s[:] = s[0:] = s[:10]
 ```
 
-### Slice length and capacity
+### slice length and capacity
 length is the length of the slice, it can be got using ```len(s)```
 capacity is the length of the underlying array, it can be got using. ```cap(s)```
 
-### Null Slices
+### null slices
 
 The zero value of a slice is nil.
 A nil slice has a length and capacity of zero and has no underlying array.
@@ -90,7 +90,7 @@ func main(){
 }
 ```
 
-### Creating a slice with make (Dynamic array)
+### creating a slice with make (dynamic array)
 
 This is how you create a dynamic array
 
@@ -104,7 +104,7 @@ To specify capacity a third argument can be passed
 var b:=make([int])
 ```
 
-### Slices of slices
+### slices of slices
 
 Slices can contain any type, including other slices
 
@@ -129,7 +129,7 @@ func main(){
 }
 ```
 
-### Appending a Slice
+### appending a slice
 
 ```go
 package main
@@ -150,7 +150,7 @@ func main() {
 
 }
 ```
-### Iterating through a slice (Range)
+### iterating through a slice (range)
 
 Iterating through a slice with the ```range``` key word is possible. each range would return two elements. a key and a value so both of those should be captured.
 
@@ -168,7 +168,7 @@ func main(){
 
 ```
 
-### Skipping Ranges
+### skipping ranges
 
 index of value in ranges can be skipped by using _ as a placeholder.
 
@@ -187,7 +187,7 @@ func main(){
 }
 ```
 
-### Maps
+### maps
 A map maps keys to values.
 
 ```go
@@ -208,7 +208,7 @@ func main(){
 }
 ```
 
-### Map Literals
+### map literals
 
 Map literals are like struct literals but the keys are required
 
@@ -243,7 +243,7 @@ var m map[string]Vertex{
 }
 ```
 
-### changing values in maps Mutating Maps
+### changing values in maps mutating maps
 
 updating value in a map
 
@@ -269,7 +269,7 @@ elem, ok := m[key]
 ```
 if ok is false i.e key not present then the elem is the zero value of the struct
 
-### Function Values
+### function values
 Functions are values too, they can be passed around just like other values.
 
 ```go

@@ -1,11 +1,11 @@
 ---
 emoji: 🐭
-title: Learning golang 01 - Basics
+title: learning golang 01 - basics
 Description: Learning go from the go tour
 layout: base
 tags: ["tech", "programming"]
 ---
-## Intro
+## intro
 - Every go program is made of packages and "main" package is run first.
 
 ```go
@@ -23,7 +23,7 @@ func main() {
 In the above program math/rand has a file with the first statement *package rand*
 
 
-### Import statements
+### import statements
 these are called factored imports
 
 ```go
@@ -40,7 +40,7 @@ import "fmt"
 import "math/rand"
 ```
 
-### Functions
+### functions
 functions can take zero or more variables. The type comes after the variable names
 
 ```go
@@ -64,7 +64,7 @@ a, b int
 ```
 
 __functions can return any number of results__
-#### Named return value:
+#### named return value:
 Function values can be named for example
 
 ```go
@@ -82,7 +82,7 @@ func split(sum int) (x,y int) { // note the return declaration
 }
 ```
 
-### Variables with initializers
+### variables with initializers
  A *var* declaration can derive type from the initializer value
 
  ```go
@@ -95,11 +95,11 @@ func main() {
 }
 ```
 
-#### Short variable declaration using :=
+#### short variable declaration using :=
 Inside a function := is available to implicitly type derive from initialisor.    
 Outside a function all declaration has to use the suffix (var, func and so on) so the short variable declarator is not available.
 
-### Basic types
+### basic types
 
 ```
 bool
@@ -119,7 +119,7 @@ float32 float64
 complex64 complex128
 ```
 
-### Zero values:
+### zero values:
 
 Variables declared without an explicit initial value are given their zero value
 
@@ -147,7 +147,7 @@ u := uint(f)
 //Note that these are only possible inside functions and not outside
 ```
 
-#### Type inference
+#### type inference
 
 When the right element was type unspecified and the left element is type specified, then it is easily derived
 
@@ -164,13 +164,13 @@ j := 3.142 //float
 k := 0.867 + 0.5i //complex
 ```
 
-### Constants
+### constants
 Constants are similar to var, but cannot be changed later on
 constants cannot be declared using := assignment
 
-# Flow control statements
+# flow control statements
 
-## For loop
+## for loop
 
 There is only *for* loop in golang.
 It has 3 components seperated by semicolons
@@ -276,7 +276,7 @@ func main() {
 // prints: 1.4142135623730951 2i
 ```
 
-### If with a short statement
+### if with a short statement
 
 If can have initialising statement. the variable is only available within the scope of the if.
 
@@ -300,7 +300,7 @@ func main(){
 ### if and else blocks
 Any variable initialised at the if block is also available at the else block
 
-## Switch statements
+## switch statements
 
 
 Switch statement is a simpler way of writing if else functions.
@@ -333,7 +333,7 @@ Switch evaluation order
 - top to bottom, 
 - stops executing whenever the right sequence is seen
 
-#### Switch with no condition.
+#### switch with no condition.
 
 - Switch without any condition, makes the case as true by default. This makes it an easier way to write if conditions
 
@@ -360,7 +360,7 @@ func main() {
 }
 ```
 
-## Defer statements
+## defer statements
 Defer statements execute after everything around it has been executed and returned
 
 Defer functions are pushed into a call stack and executed in last-in-first-out order
@@ -379,7 +379,7 @@ func main() {
 
 ```
 
-## Pointer
+## pointer
 Pointers are references to the memory ho
 
 ```go
@@ -400,7 +400,7 @@ fmt.Println(*p) // read i through the pointer p
 *p = 21         // set i through the pointer p
 ```
 
-# Struct 
+# struct 
 A struct is a collection of fields. 
 
 ```go
@@ -417,7 +417,7 @@ func main() {
     fmt.Println(Vertex{1,2})
 }
 ```
-## Struct Literals
+## struct literals
 Structs can be defined by ```{Name: value}``` syntax.
 
 ```go
@@ -455,7 +455,7 @@ func main() {
 }
 
 ```
-### Pointers to Struct
+### pointers to struct
 Struct fields can be accessed through pointers.
 But it is cumbersome to write *<pointer_name> every time. So the * can be ignored without explicit dereference.
 
